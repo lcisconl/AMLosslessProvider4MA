@@ -8,13 +8,6 @@ stream resolution is replaced, using an external FairPlay gateway.
 > The FairPlay runtime is a separate service and is **not** part of this
 > repository: [lcisconl/apple-fairplay](https://github.com/lcisconl/apple-fairplay)
 
-## Images
-
-| Service | Image |
-| --- | --- |
-| Music Assistant with this provider | `ghcr.io/lcisconl/music-assistant-apple-lossless:latest` |
-| FairPlay engine | `ghcr.io/lcisconl/apple-fairplay:latest` |
-
 ## Features
 
 - ALAC lossless playback, including hi-res, from Apple's enhanced HLS source
@@ -43,7 +36,7 @@ stream resolution is replaced, using an external FairPlay gateway.
 
 ## Requirements
 
-- Music Assistant server running this provider (see the image above)
+- Music Assistant server running this provider
 - A FairPlay engine reachable from Music Assistant, by default at
   `https://127.0.0.1:20025`
 - `pywidevine==1.9.0` (declared in `manifest.json`, used by the Widevine
