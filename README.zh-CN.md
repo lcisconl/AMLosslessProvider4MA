@@ -182,6 +182,7 @@ manifest.json       Music Assistant provider manifest
 strings.json        UI 文案
 icon.svg            Provider 图标
 icon_monochrome.svg 单色 Provider 图标
+LICENSE             MIT 许可证
 ```
 
 ## 说明
@@ -190,8 +191,10 @@ icon_monochrome.svg 单色 Provider 图标
 - 无损播放仅适用于你自己的 Apple Music 订阅有权访问的内容。请遵守 Apple
   服务条款和当地法律。
 - FairPlay 引擎是独立项目，不包含在本仓库中。
-- 本仓库未包含许可证文件。如果你打算以特定许可证再分发代码，请先添加
-  许可证。
+
+## 许可证
+
+本项目基于 [MIT 许可证](LICENSE) 发布。
 
 ## 致谢
 

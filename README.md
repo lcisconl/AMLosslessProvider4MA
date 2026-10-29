@@ -198,6 +198,7 @@ manifest.json       Music Assistant provider manifest
 strings.json        UI strings
 icon.svg            Provider icon
 icon_monochrome.svg Monochrome provider icon
+LICENSE             MIT license
 ```
 
 ## Notes
@@ -207,8 +208,10 @@ icon_monochrome.svg Monochrome provider icon
 - Lossless playback only works for content your own Apple Music subscription
   can access. Respect Apple's terms of service and local law.
 - The FairPlay engine is a separate project and is not included here.
-- No license file is included in this repository. Add one before redistributing
-  the code if you intend to publish it under a specific license.
+
+## License
+
+Released under the [MIT License](LICENSE).
 
 ## Credits
 
