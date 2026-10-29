@@ -1,0 +1,18 @@
+{
+  "type": "music",
+  "domain": "apple_music_lossless",
+  "stage": "experimental",
+  "name": "Apple Music Lossless",
+  "description": "Apple Music with ALAC lossless streaming over the catalog enhanced HLS source.",
+  "codeowners": [
+    "@silentone12725"
+  ],
+  "credits": [
+    "[pywidevine](https://github.com/devine-dl/pywidevine)"
+  ],
+  "requirements": [
+    "pywidevine==1.9.0"
+  ],
+  "documentation": "https://music-assistant.io/music-providers/apple-music/",
+  "multi_instance": true
+}

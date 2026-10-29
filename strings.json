@@ -1,0 +1,54 @@
+{
+  "config_entries": {
+    "fairplay_gateway": {
+      "label": "FairPlay Gateway URL",
+      "description": "Address of the FairPlay engine, for example https://127.0.0.1:20025. When Music Assistant and the engine use host networking, use the loopback address."
+    },
+    "fairplay_token": {
+      "label": "FairPlay API Token",
+      "description": "Token shared with the FairPlay engine. It must match ADAM_API_TOKEN on the engine service."
+    },
+    "music_app_token": {
+      "label": "MusicKit App Token"
+    },
+    "music_user_manual_token": {
+      "label": "Manual Music User Token"
+    },
+    "cache_enabled": {
+      "label": "Enable track cache",
+      "description": "Store decrypted lossless tracks on disk so replaying them does not create a new FairPlay playback session. Turning it off removes already cached tracks."
+    },
+    "cache_max_size_mb": {
+      "label": "Track cache size (MB)",
+      "description": "Maximum disk space used by cached tracks. Least recently played tracks are removed first. Set to 0 to disable the cache and remove cached tracks."
+    },
+    "cache_dir": {
+      "label": "Track cache directory",
+      "description": "Optional directory for cached tracks. Leave empty to use the Music Assistant data/cache directory. The provider instance id is appended automatically."
+    }
+  },
+  "setup_flow": {
+    "fairplay": {
+      "title": "Configure the FairPlay engine",
+      "description": "Enter the address and API token of the FairPlay engine. These values are saved with this provider."
+    },
+    "app_token": {
+      "title": "Enter a developer token",
+      "description": "The bundled Apple Music developer token is unavailable or expired. Paste a valid MusicKit developer token to continue."
+    },
+    "user": {
+      "title": "Sign in to Apple Music",
+      "description": "Continue to sign in with your Apple ID in a browser window. Advanced users can instead paste a Music User Token, for example for child accounts where the browser sign-in is unavailable."
+    },
+    "auth": {
+      "title": "Authorize Music Assistant",
+      "description": "Sign in with your Apple ID in the window that opens to grant Music Assistant access."
+    },
+    "abort": {
+      "auth_cancelled": "Sign-in was cancelled or timed out before Apple returned a token. Please try again."
+    }
+  },
+  "manifest": {
+    "description": "Stream Apple Music’s full catalogue and playlists."
+  }
+}
