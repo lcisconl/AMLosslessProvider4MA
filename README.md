@@ -1,5 +1,7 @@
 # Apple Music Lossless for Music Assistant
 
+English | [简体中文](README.zh-CN.md)
+
 An experimental [Music Assistant](https://music-assistant.io/) music provider
 that plays Apple Music in **ALAC lossless**. Catalogue, search, library and
 playlist handling are inherited from the built-in Apple Music provider; only
